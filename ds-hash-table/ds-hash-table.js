@@ -4,7 +4,7 @@ var makeHashTable = function() {
    
     return {
       //i want to put bucket inside storage index
-      var bucket=[]
+      bucket:[]
 
       _storage: [],
       retrieve: function(key) {

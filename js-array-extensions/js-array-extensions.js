@@ -1,8 +1,8 @@
 // your code here
-.first=function(){
+.first =function(Array){
 	return Array[0]
 }
 
-.last=function(){
+.last=function(Array){
 	return Array[Array.length-1]
 }

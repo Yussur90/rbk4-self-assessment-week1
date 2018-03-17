@@ -6,6 +6,7 @@ var Stack = function() {
      //store new input data in storage
        this._storage[count]=value
        //the count is to give me the size of storage
+       //or i can use Object.keys()
      count++
     };
     this.remove = function() {
